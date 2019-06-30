@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="temperatura.js"></script>
+    </head>
+        <body>
+            <h2>Pretvornik temperature</h2>
+            <div class="square">
+            <p>Stopinj Celzija:</p> <div class="poravnava"> <input type="text" onkeyup="convert('C')" id="c" name="cel"></div>
+            <p>Stopinj Fahrenheita:</p><div class="poravnava"> <input type="text"  onkeyup="convert('F')" id="f" name="fah"><br/></div>
+            <p>Stopinj Kelvina:</p><div class="poravnava"> <input type="text" id="k" onkeyup="convert('K')" name="kel"><br/></div>
+                <button type="button" name="delete" onclick="myFunction()">Izbriši</button>
+            </div>
+    </body>
+</html>
